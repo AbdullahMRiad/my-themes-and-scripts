@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           RTL Text in Google Forms
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    RTL Text in Google Forms
+@author         AbdullahMRiad
+==/UserStyle== */
+
+@-moz-document regexp("https://docs.google.com/forms/*") {
+    .Qr7Oae {
+        direction: rtl;
+    }
+    
+    .ulDsOb {
+	    margin-right: 5pt;
+    }
+}

@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           El Monsef Dark Mode Tweaks
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    The name
+@author         AbdullahMRiad
+==/UserStyle== */
+
+@-moz-document url-prefix("https://elmonsf.com/") {
+    @media (prefers-color-scheme: dark) {
+        .iconCheck, .icon:not(.mr-2, .ml-2) {
+        	border-radius: 500px;
+        	background-image: radial-gradient(#fff 20%, #00000000 100%);
+        }
+
+        .logo {
+        	background-color: white;
+        	padding: 5px;
+        	border-radius: 12px;
+        }
+
+        img[src="https://images.elmonsf.com/wp-content/uploads/elmonsfHome.jpg"] {
+            border-radius: 56px;
+        }
+    }
+}

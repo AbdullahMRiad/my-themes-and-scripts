@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           El Monsef Font Changer
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Changes the font on the El Monsef website to a user-selected one
+@author         Abdullah Mohammed
+
+                type   |    name    |    label    |    default value
+@var            text        font        "Font"        "Almarai", sans-serif !important
+@var            text       weight    "Font Weight"    'unset'
+==/UserStyle== */
+@-moz-document domain("elmonsf.com") {
+    * {
+        font-family: var(--font) !important;
+        font-weight: var(--weight)
+    }
+}
